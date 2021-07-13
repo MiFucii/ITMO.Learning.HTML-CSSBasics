@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=”utf-8">
+		<title>Гиперссылки</title>
+        <link rel="stylesheet" href="../../mainCss.css">
+        <style>
+            a:visited{color:blue;}
+			a:active{color:Fuchsia;}
+			a:hover {color:yellow;}
+        </style>
+    </head>
+    <body>
+        <table id="secondTable">
+            <tr>
+                <td onclick="document.location='about_buttons.html'">Внутренние ссылки документа</td>
+                <td onclick="document.location='../../mainIndex.html'">На главную</td>
+            </tr>
+        </table>
+        <br/>
+        <a href = "../LabWorking2/classification.html">Переход к странице классификации</a><br />
+        <a href = "https://ru.wikipedia.org/wiki/%CF%F3%E3%EE%E2%E8%F6%E0">Статья в Википедии</a><br />
+        <a href = “http://www.yandex.ru” target = "_top" >Yandex</a><br />
+        <a href="mailto:myAdress@domain.ru">Отправьте мне письмо через почтовой агент!</a>
+    </body>
+</html>

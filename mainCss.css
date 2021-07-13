@@ -1,0 +1,53 @@
+#mainTable {
+    text-decoration: none;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#mainTable tbody {
+    border: 3px solid #000000;
+}
+
+#mainTable th {
+    padding: 20px 20px;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    border-right: 3px solid #000000;
+}
+
+#mainTable td {
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #551a8f;
+    text-align: left;
+    border-right: 3px solid #000000;
+}
+
+#mainTable td:hover {
+    background-color: #f9fafb;
+}
+
+#secondTable {
+    text-decoration: none;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#secondTable td {
+    font-size: 20px;
+    color: #551a8f;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #000000;
+}
+
+#secondTable td:hover {
+    background-color: #fde8d0
+}
+
+a:link {
+    text-decoration: none;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=”utf-8">
+    <title>Работа с формами</title>
+    <link rel="stylesheet" href="../../mainCss.css">
+</head>
+
+<body>
+    <table id="secondTable">
+        <tr>
+            <td onclick="document.location='Checkboxes&Lists.html'">Флажки и Списки</td>
+            <td onclick="document.location='../../mainIndex.html'">На главную</td>
+        </tr>
+    </table>
+    <br /><br />
+    <form action="Forms.html" method="POST" enctype="multipart/form-data">
+        Простое текстовое поле: <input type="text" name="txtField" /><br />
+        Поле длинной максимум 5 символов: <input type="text" name="txtField5" maxlength="5" /><br />
+        Многострочное текстовое поле:<br />
+        <textarea name="txtArea">Введите сюда ваш текст!</textarea><br />
+        Поле для ввода пароля:<input type="password" name="psw" maxlength="5" /><br />
+        Скрытое поле: <input type="hidden" name="hdnTxt"></br>
+        <input type="submit" name="submit" value="Отправить!" />
+    </form>
+    <br />
+    <hr /><br />
+    <form>
+        Работа с цветом:<input type="color" name="color" /><br />
+        Работа с датой:<input type="date" name="date" /><br />
+        Проверка e-mail:<input type="email" name="mail" /><br />
+        Проверка чисел:<input type="number" name="num" /><br />
+        Работа с неделями:<input type="week" name="week" /><br />
+        Проверка URL:<input type="url" name="url" /><br />
+        <input type="submit" name="submit" value="Отправить!" />
+    </form>
+    <br />
+    <hr /><br />
+    <form>
+        Введите данные:<input type="text" name="txt"><br />
+        <input type="reset" name="reset" value="Очистить поле!" /><br />
+        <input type="submit" name="submit" value="Отправить!" /><br />
+        <input type="button" name="MyButton" value="Просто кнопка" />
+        <button name="myButton">
+            <img src="enot.jpg" title="This is a button too">
+        </button>
+    </form>
+    <br />
+    <hr /><br />
+    <form>
+        <input type="file" name="files" multiple>
+    </form>
+
+
+
+
+</body>
+
+</html>
